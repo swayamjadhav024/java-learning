@@ -14,8 +14,8 @@ public class Vote
         { 
             System.out.print("not Eligibal for vote");
         }
-        else
-        { 
+        else if(age<0)
+        {  
             System.out.print("invalid age");
         
 
@@ -25,3 +25,4 @@ public class Vote
     }
     
 }
+// My first GitHub update
